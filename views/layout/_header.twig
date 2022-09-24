@@ -1,15 +1,16 @@
 <header id="header">
 
-	<div>
+	<div class="max-w-7xl mx-auto py-2 flex items-baseline justify-between">
 
-		<div class="navigation">
-			<a href="{{ site.url }}">{{site.title}}</a>
-			<nav>
+		<div class="navigation items-baseline px-5 hidden md:flex">
+			<a href="{{ site.url }}" class="text-3xl font-extrabold text-gray-900 mr-8 transition ease-in-out duration-300 hover:text-gray-700 dark:text-zinc-200">{{site.title}}</a>
+			<nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
 				{% for item in menus.main.items %}
-					<a href="#">{{item.title}}</a>
+					<a href="#" class="font-medium text-gray-500 hover:text-gray-900 mx-2 dark:text-zinc-300">{{item.title}}</a>
 				{% endfor %}
 			</nav>
 		</div>
+
 	</div>
-    
+
 </header>
