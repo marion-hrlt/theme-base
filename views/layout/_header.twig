@@ -1,0 +1,15 @@
+<header id="header">
+
+	<div>
+
+		<div class="navigation">
+			<a href="{{ site.url }}">{{site.title}}</a>
+			<nav>
+				{% for item in menus.main.items %}
+					<a href="#">{{item.title}}</a>
+				{% endfor %}
+			</nav>
+		</div>
+	</div>
+    
+</header>

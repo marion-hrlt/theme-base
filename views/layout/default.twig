@@ -1,0 +1,19 @@
+{#
+    * Layout/Default
+    * @package ThemeBasis
+#}
+
+<!doctype html>
+<html {{ site.language_attributes }}>
+	<head>
+		<meta charset="{{ site.charset }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{{ function('wp_head') }}
+	</head>
+	<body class="{{ body_class }}">
+		{% include 'layout/_header.twig' %}
+		{% block content endblock %}
+		{% include 'layout/_footer.twig' %}
+		{{ function('wp_footer') }}
+	</body>
+</html>
