@@ -25,3 +25,18 @@ if ( ! function_exists( 'theme_basis_setup' ) ) {
 	}
 }
 add_action( 'after_setup_theme', 'theme_basis_setup' );
+
+
+if ( ! function_exists( 'home_redirect_after_logout' ) ) {
+	/**
+	 * Home redirection after logout admin
+	 * @since ThemeBasis 1.0
+	 * @return void
+	 */
+	function home_redirect_after_logout()
+	{
+		wp_safe_redirect(home_url('/'));
+		exit();
+	}
+}
+add_action('wp_logout', 'home_redirect_after_logout');
