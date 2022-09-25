@@ -17,14 +17,13 @@ To install the theme and use it :
 ```
 composer install
 npm install
-npm run start
 
 ```
-Commands for mix 
+
+Commands for mix
 
 ```
 npx mix
 npx mix watch
 
 ```
-
