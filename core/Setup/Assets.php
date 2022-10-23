@@ -6,7 +6,7 @@
  * @package ThemeBasis Theme
  */
 
-namespace ThemeBasis\Setup;
+namespace App\Setup;
 
 use Exception;
 

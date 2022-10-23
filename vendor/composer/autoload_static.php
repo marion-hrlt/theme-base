@@ -28,6 +28,10 @@ class ComposerStaticInitee45fbdc8314ef48c43aa088b2c82743
         array (
             'Composer\\Installers\\' => 20,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -54,6 +58,10 @@ class ComposerStaticInitee45fbdc8314ef48c43aa088b2c82743
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/core',
         ),
     );
 

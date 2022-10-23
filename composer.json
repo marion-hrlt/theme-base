@@ -1,10 +1,15 @@
 {
-    "require": {
-        "timber/timber": "^1.20"
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true
-        }
-    }
+	"require": {
+		"timber/timber": "^1.20"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "./core"
+		}
+	}
 }

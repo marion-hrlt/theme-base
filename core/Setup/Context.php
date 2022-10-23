@@ -6,7 +6,7 @@
  * @package ThemeBasis Theme
  */
 
-namespace ThemeBasis\Setup;
+namespace App\Setup;
 
 use Timber\Timber;
 use Timber\Menu;

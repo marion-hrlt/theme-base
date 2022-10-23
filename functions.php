@@ -11,7 +11,7 @@
 require_once(__DIR__ . '/vendor/autoload.php');
 require_once(__DIR__ . '/core/App.php');
 
-use ThemeBasis\App;
+use App\App;
 
 $timber = new \Timber\Timber();
 

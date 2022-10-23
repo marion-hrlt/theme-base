@@ -6,10 +6,7 @@
  * @package ThemeBasis
  */
 
-namespace ThemeBasis;
-
-require_once(__DIR__ . '/Setup/Assets.php');
-require_once(__DIR__ . '/Setup/Context.php');
+namespace App;
 
 /**
  * Boot
